@@ -1,4 +1,4 @@
-# git-refactoring
+# ¿ Qué hacen mis ejercicios ?
 1. Escribe el nombres de personas y los mete en una lista desordenada.
 2. Es una loteria del 1 al 15, si sale 1 al 5 te ganas un Iphone, si sale de 6 al 10 no ganas nada y si sale de 11 al 15 te ganas un coche.
 3. Lee una frase para posteriormente decirte : Número de palabras, primera palabra, última palabra.
