@@ -5,19 +5,13 @@ function insertarName(evt) {
     
     if (nombre == "") {
       alert("El nombre no puede estar vacio");
-    } 
-
-    let n = nombre;
-    let name;
-
-    if (n != ""){
-      let opcion = "<li> " + n + "</li>";
+    }
+    else
+    {
+      let opcion = "<li> " + nombre + "</li>";
   
-      let lista = document.getElementById("lista-nombres");
-  
-      lista.innerHTML += opcion;
+      document.getElementById("lista-nombres").innerHTML += opcion;
   
       alert("Se ha insertado el nombre");
-    }
-
+    }                  
   }
