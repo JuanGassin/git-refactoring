@@ -1,14 +1,14 @@
 function CuentaPalabras(){
 
-    let a, cuantas, primera, ultima, palabras;
+    let array, cuantas, primera, ultima;
 
-    a = document.getElementById("a0").value.split(" ");
-    if(a){
-        cuantas = a.length;
+    array = document.getElementById("a0").value.split(" ");
+    if(array){
+        cuantas = array.length;
     
-        primera = a[0];
+        primera = array[0];
     
-        ultima = a[a.length - 1];
+        ultima = array[array.length - 1];
     
         document.getElementById("a4").innerHTML="Número de palabras: " + cuantas;
         document.getElementById("a5").innerHTML="Primera palabra: " + primera;

@@ -5,7 +5,7 @@ function JuegoDeSuerte(){
     {
         window.alert(aleatorio + ", Has ganado un Iphone");
     }
-    else if(aleatorio>=6 && aleatorio<=10)
+    else if(aleatorio<=10)
     {
         window.alert(aleatorio + ", No ganaste nada");
     }
